@@ -1,5 +1,13 @@
 # Changelog
 
+## master (unreleased)
+
+### New Features
+
+* [#887](https://github.com/toptal/chewy/pull/887): Add support [runtime_mappings](https://www.elastic.co/guide/en/elasticsearch/reference/current/runtime-search-request.html). ([@TakuyaKurimoto](https://github.com/TakuyaKurimoto))
+
+### Changes
+
 ## 8.0.1 (2026-03-12)
 
 ### New Features
