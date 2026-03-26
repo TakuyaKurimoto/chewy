@@ -37,6 +37,9 @@ module Chewy
     end
   end
 
+  class MissingHitsInScrollError < Error
+  end
+
   class ImportScopeCleanupError < Error
   end
 

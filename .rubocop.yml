@@ -1,5 +1,8 @@
 inherit_from: .rubocop_todo.yml
 
+plugins:
+  - rubocop-rake
+
 AllCops:
   NewCops: enable
   TargetRubyVersion: 3.2
@@ -47,6 +50,9 @@ Style/AndOr:
   EnforcedStyle: conditionals
 
 Style/DoubleNegation:
+  Enabled: false
+
+Style/RedundantStructKeywordInit:
   Enabled: false
 
 Metrics/BlockLength:
